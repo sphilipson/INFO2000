@@ -45,3 +45,16 @@ body {
   }
 
   
+  .tab-content {
+    display: none;
+  }
+  
+  .tab-content.active {
+    display: block;
+  }
+  
+  .tab-button.active {
+    font-weight: bold;
+    /* Add desired styling for active tab button */
+  }
+  
