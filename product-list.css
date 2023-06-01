@@ -7,6 +7,15 @@
   --colour-light:#FFFFFF;
 }
 
+h2{
+  font-family: Arial, Helvetica, sans-serif;
+font-size: 3vw;
+justify-content: center ;
+align-items: center;
+color: black;
+text-align: center;
+}
+
 h3 {
 font-family: Arial, Helvetica, sans-serif;
 font-size: 1vw;
@@ -22,7 +31,7 @@ a:link {
 
 h4 {
 font-family: Arial, Helvetica, sans-serif;
-font-size: 0.75vw;
+font-size: 0.85vw;
 justify-content: center;
 align-items: center;
 color: black;
@@ -127,7 +136,11 @@ border-width: 0.5px;
   object-fit: contain;
 }
 
-
+.product-list-image:hover{
+  color: black;
+  background-color: #e8e3e3;
+  
+}
 
 @media (max-width: 920px){
   .product-list-products{
@@ -141,6 +154,37 @@ border-width: 0.5px;
   }
 }
 
+.productlist-button-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 12%;
+ position: relative;
+padding-bottom: 3%;
+ 
+}
+
+.btn{
+  display: inline-block;
+  padding: 1% 10%;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-size: 1vw;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  
+  border-style: solid;
+  border-width: 0.5px;
+  color: black;
+
+}
+
+.btn:hover{
+  color: black;
+  background-color: #e8e3e3;
+}
+
 /*footer*/
   
   .footer-container {
@@ -149,7 +193,11 @@ border-width: 0.5px;
     background-color:#e8e3e3; 
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items:first baseline;
+    padding-top: 0.5%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
     
   }
   
@@ -164,14 +212,27 @@ border-width: 0.5px;
   
   .footer-container ul li {
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: normal;
+    font-weight: bold;
     margin-bottom: 10px;
     font-size: 14px;
     color: black; 
   }
   
+  .footer-banner-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    align-items: first baseline;
+   
+  }
   .footer-container img {
-    height: 50px; 
-    width: auto; 
+   width: 100%;
+   height: auto;
+
+
   }
   
