@@ -2,6 +2,7 @@
     cursor: pointer;
     border: none;
     background-color: white;
+    color: #363232;
 }
 
 .icon-btn{ /*buttons that are images/icons*/

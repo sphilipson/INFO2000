@@ -21,8 +21,6 @@ nav {
     justify-content: space-between;
   }
 
-  
-
 
   .navbar-container > :nth-last-child(2){ /*search and cart*/
     margin-left: auto;
