@@ -1,0 +1,47 @@
+.btn{ /*buttons that are just text*/
+    cursor: pointer;
+    border: none;
+    background-color: white;
+}
+
+.icon-btn{ /*buttons that are images/icons*/
+    height: 20px; 
+    max-width: 100%;
+    margin: 0; 
+    padding: 0;
+}
+
+.prev-page-btn{ /* back arrow button group including text */
+    padding-left: 3rem;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12%;
+   position: relative;
+  padding-bottom: 3%;
+   
+  }
+  
+  .button-main{
+    display: inline-block;
+    padding: 1% 10%;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 1vw;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: white;
+    border-style: solid;
+    border-width: 0.5px;
+    color: black;
+  
+  }
+  
+  .button-main:hover{
+    color: black;
+    background-color: #e8e3e3;
+  }
