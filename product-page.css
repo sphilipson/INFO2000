@@ -1,62 +1,33 @@
-body {
-    padding: 0;
-    margin: 0;
-    overflow-x: hidden;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: normal;
-  }
-  
-  nav {
-    width: 100%;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    margin-top: 0;
-    position: fixed;
-    display: block;
-    top: 0;
-    z-index: 1;
-    background-color: white;
-  }
-  
-  .navbar-container {
-    border:none;
-    display: flex;
-    /* outline: dotted red; */
-  }
-  
-  .navbar-container > :nth-last-child(1){
-    margin-left: auto;
-    padding-right: 10px;
-  }
-  
-  .navbar-container button {
-    border: none;
-    background-color: white;
-    cursor: pointer;
-    padding-top: 5px;
-    padding-left: 10px;
-  }
-  
-  .navbar-container img {
-    height: 20px; 
+.product {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 3rem;
+}
+
+
+.column-centre{
+    justify-self: center;
+}
+
+
+.column-aligned{
+    padding-left: 10rem;
+}
+
+.product-photo{
     max-width: 100%;
-    margin: 0; 
-    padding: 0;
+    height: auto;
+}
 
-    
-  }
+.product-image{
+    width: 30rem;
+    height: auto;
+}
 
-  
-  .tab-content {
-    display: none;
-  }
-  
-  .tab-content.active {
-    display: block;
-  }
-  
-  .tab-button.active {
-    font-weight: bold;
-    /* Add desired styling for active tab button */
-  }
-  
+.cart-info{
+    width: 10rem;
+}
+
+
+
+
