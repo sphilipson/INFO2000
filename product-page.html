@@ -3,8 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content = "width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="product-page.css">
+    <link rel="stylesheet" type="text/css" href="fonts.css">
+    <link rel="stylesheet" type="text/css" href="buttons.css">
+    <link rel="stylesheet" type="text/css" href="bodylayout.css">
+    <link rel="stylesheet" type="text/css" href="navbarandfooter.css">
     <link rel="stylesheet" href="css/reset.css">
     <title>loungelovers  product page</title>
 </head>
@@ -13,118 +18,111 @@
         <nav class="navbar">
             <div class="navbar-container">
                 <div class="hamburger-menu">
-                    <button class="hamburger-button">
-                        <img src="Assets/hamburger-icon.png" alt="menu">
-                    </button>
-                </div>
-                <div class="search-icon">
-                    <button class="search-button" type="submit">
-                        <img src="Assets/search-interface-symbol.png" alt="search">
+                    <button class="btn">
+                        <img class= "icon-btn" src="Assets/hamburger-icon.png" alt="menu">
                     </button>
                 </div>
                 <div class="logo">
-                    <button class="logo-button">
-                        <img src="Assets/logostraightcropped.png" alt="Lounge Lovers">
+                    <button class="btn">
+                        <img class= "icon-btn" src="Assets/logostraightcropped.png" alt="Lounge Lovers">
+                    </button>
+                </div>
+                <div class = "nav-menu">
+                    <div>
+                        <button class="btn nav-button bold text-btn" alt="NEW">
+                            NEW
+                        </button>
+                    </div>
+                    <div>
+                        <button class="btn nav-button bold text-btn" alt="loungeroom">
+                            LOUNGEROOM
+                        </button>
+                    </div>
+                    <div>
+                        <button class="btn nav-button bold text-btn" alt="bedroom">
+                            BEDROOM
+                        </button>
+                    </div>
+                    <div>
+                        <button class="btn nav-button bold text-btn" alt="dining room">
+                            DINING ROOM
+                        </button>
+                    </div>
+                </div>
+                <div class="search-icon">
+                    <button class="btn" type="submit">
+                        <img class= "icon-btn" src="Assets/search-interface-symbol.png" alt="search">
                     </button>
                 </div>
                 <div class="cart-icon" data-value="0">
-                    <button class="cart-button">
+                    <button class="btn cart-button bold text-btn">
                         CART(0)
                     </button>
                 </div>
             </div>
         </nav>
-        <div>
-            <button class="arrow-logo return-button">
-                <img src="Assets/arrow-icon.png" alt="arrow button">
-            </button>
-            <button class = "return-button">
-                PRODUCTS
-            </button>
-        </div>
-        <div class = "product-info">
-            <h2 class = "item-name heading">HUGO THREE SEAT SOFA</h2>
-            <h3 class = "price heading heading-thin">$1299</h3>
-            <div class = "product-options">
-                <div class = "option">PRESTON GREY</div>
-                <div class = "option">PRESTON ASH</div>
-                <div class = "option">CARLISLE WHEAT</div>
+        <!--rest of the page-->
+        <div class = "page"> <!--ensures the rest of page is visible under nav bar-->
+            <div class = "prev-page-btn">
+                <button class="btn return-btn">
+                    <img class= "icon-btn" src="Assets/arrow-icon.png" alt="arrow button">
+                </button>
+                <button class = "btn bold text-btn">
+                    PRODUCTS
+                </button>
             </div>
-        </div>
-        <div class = "product-image">
-            <img src="Assets/hugo-3-seater-sofa-preston-grey-wood-legs-designer-skandi-retro-front_1_jpg.webp" alt="HUGO 3-SEAT SOFA in PRESTON GREY">
-            <button class = "showroom button-style-main">
-            VIEW IN SHOWROOM
-            </button>
-        </div>
-        <div class = "cart-btn">
-            <label for = "quantity" class = "quantity">Qty:</label>
-            <select id = "quantity" name = "quantity">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-            </select>
-            <button class = "add-to-cart button-style-main">
-                ADD TO CART
-            </button>
-            <div class = "text-fine">
-                DISPATCHED ON THE 25TH OF APRIL
+            <div class="product"> <!--product image and purchase info laid out in 2 column grid structure-->
+                <div class = "product-info column-aligned">
+                    <h2 class = "item-name bold heading-font">HUGO THREE SEAT SOFA</h2>
+                    <h3 class = "subtitle-font">$1299</h3>
+                    <div class = "product-options">
+                        <div class = "option">PRESTON GREY</div>
+                        <div class = "option">PRESTON ASH</div>
+                        <div class = "option">CARLISLE WHEAT</div>
+                    </div>
+                </div>
+                <div class = "product-image column-centre">
+                    <img class = "product-photo" src="Assets/hugo-3-seater-sofa-preston-grey-wood-legs-designer-skandi-retro-front_1_jpg.webp" alt="HUGO 3-SEAT SOFA in PRESTON GREY">
+                </div>
+                <div class = "cart-info column-aligned">
+                    <div>
+                        <label for = "quantity" class = "btn quantity">Qty:</label>
+                        <select id = "quantity" name = "quantity">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </div>
+                    <div>
+                        <button class = "btn btn-main add-to-cart">
+                            ADD TO CART
+                        </button>
+                    </div>
+                    <div>
+                        DISPATCHED ON THE 25TH OF APRIL
+                    </div>
+                </div>
+                <div class = "column-centre">
+                    <button class = "btn">
+                        VIEW IN SHOWROOM
+                    </button>
+                </div>
             </div>
-        </div>
-        <div class = "product-description">
-            <h4 class = "item-subtitle heading subtitle">
-                TIMELESS DESIGN
-            </h4>
-            <p class = "body-text">
-            The retro-inspired shape and simple elegance of the Hugo 3 seat sofa promises time-tested features. With sleek, slightly angled natural oak legs, a deep seat and lots of comfy cushions, the Hugo sofa possesses universal appeal for a no-fuss style.
-            </p>
-            <h4 class = "item-subtitle heading subtitle">
-                BUILT TO LAST
-            </h4>
-            <p class = "body-text">
-            The Hugo 3 seat sofa features removable seat and back cushion covers to allow for easy maintenance. Its high density seat cushions ensure the Hugo will stand the test of time.
-        </div>
-        <div class="tab-container">
-            <button class="tab-button active" data-tab="tab1">Tab 1</button>
-            <button class="tab-button" data-tab="tab2">Tab 2</button>
-            <button class="tab-button" data-tab="tab3">Tab 3</button>
-          
-            <div id="tab1" class="tab-content active">
-              <!-- Table content for Tab 1 -->
-              <table>
-                <thead>
-                  <tr>
-                    <th>Column 1</th>
-                    <th>Column 2</th>
-                    <!-- Add more table headers as needed -->
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Row 1, Column 1</td>
-                    <td>Row 1, Column 2</td>
-                    <!-- Add more table cells as needed -->
-                  </tr>
-                </tbody>
-              </table>
+            <div class = "product-description">
+                <h4 class = "item-subtitle">
+                    TIMELESS DESIGN
+                </h4>
+                <p class = "body-text">
+                The retro-inspired shape and simple elegance of the Hugo 3 seat sofa promises time-tested features. With sleek, slightly angled natural oak legs, a deep seat and lots of comfy cushions, the Hugo sofa possesses universal appeal for a no-fuss style.
+                </p>
+                <h4 class = "item-subtitle">
+                    BUILT TO LAST
+                </h4>
+                <p class = "body-text">
+                The Hugo 3 seat sofa features removable seat and back cushion covers to allow for easy maintenance. Its high density seat cushions ensure the Hugo will stand the test of time.
             </div>
-          
-            <div id="tab2" class="tab-content">
-              <!-- Table content for Tab 2 -->
-              <table>
-                <!-- Table structure for Tab 2 -->
-              </table>
-            </div>
-          
-            <div id="tab3" class="tab-content">
-              <!-- Table content for Tab 3 -->
-              <table>
-                <!-- Table structure for Tab 3 -->
-              </table>
-            </div>
-          </div>
-          
+           
 </body>
 </html>
 
