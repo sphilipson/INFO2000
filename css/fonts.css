@@ -22,19 +22,22 @@
 
 
 
-h3 {
+.product-title {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1vw;
+    font-size: 1.2vw;
     justify-content: center ;
     align-items: center;
     color: black;
     text-align: center;
+    font-weight: bold;
+   
     }
     
     a:link {
       text-decoration: none
     }
     
+<<<<<<< HEAD
 h4 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.1vw;
@@ -60,3 +63,14 @@ h4 {
         color: grey;
 
     }
+=======
+.product-list-price {
+     font-family: Arial, Helvetica, sans-serif;
+            font-size: 1vw;
+            justify-content: center;
+            align-items: center;
+            color: black;
+            text-align: center ;
+            font-weight: lighter;
+            }
+>>>>>>> 8e80c157650733c9f5b61ff1e6108c6a48d37da9
