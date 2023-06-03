@@ -1,3 +1,5 @@
+/*CSS for buttons*/
+
 .btn{ /*buttons that are just text*/
     cursor: pointer;
     border: none;
@@ -49,22 +51,37 @@
     background-color: #e8e3e3;
   }
 
-  .quantity-picker{
-    border-style: solid;
-    font-family: Arial, Helvetica, sans-serif;
-    border-width: 2px;
-    display: flex;
-    justify-content: center;
-    width: 40%;
-  }
+.button-secondary{
+  border-style:solid;
+  font-family: Arial, Helvetica, sans-serif;
+  border-width 2px;
+  padding: 1rem 3rem;
+  max-height: 3rem;
+  color:#434242;
+  white-space: nowrap;
+}
 
- .button-secondary{
-    font-size: 1vw;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    background-color: white;
-    border-style: solid;
-    border-width: 2px;
-    color: black;
-    margin: 10% 20%;
- }
+.quantity-picker{
+  border-style:solid;
+  font-family: Arial, Helvetica, sans-serif;
+  border-width 2px;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  max-height: 3rem;
+  color:#434242;
+  white-space: nowrap;
+  margin-right: 3rem;
+  display: flex;
+  align-items: center;
+}
+
+.button-secondary:hover{
+  border-color: black;
+  color: #434242;
+  background-color: #e8e3e3;
+}
+
+@media (max-width: 700px) {
+  .prev-page-btn{
+    padding-left: 1rem;
+  }
+}

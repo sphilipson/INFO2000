@@ -3,7 +3,6 @@
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 70px;
-  
   }
   
   .checkout-header-text{
@@ -15,7 +14,7 @@
     font-weight: bold;
   }
 
-  .cart-items-container {
+  .cart-items-container{
     display: flex;
     bottom: 0;
     margin-bottom: 0;
@@ -45,8 +44,6 @@
     color: #363232; 
     margin-left: auto;
     list-style: none;
-    
-    
   }
 
   .cart-text ul {
@@ -61,5 +58,6 @@
     padding-top: 0;
     padding-left: 15px;
     padding-right: 10px;
-    
   }
+
+  
