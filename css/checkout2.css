@@ -1,0 +1,21 @@
+.checkout-input-container1{
+    max-width: 100%;
+    padding: 10%;
+    background-color: bisque;
+}
+
+.checkout2-container{
+    background-color: aquamarine;
+}
+
+
+.email{
+display: block;
+font-weight: bold;
+}
+
+.input {
+    width: 100%;
+    border: 1px solid;
+    border-radius: 10px;
+}

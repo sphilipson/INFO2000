@@ -41,6 +41,7 @@
     border-color: black;
     color: #434242;
     margin: 2% 2%;
+    cursor: pointer;
   }
   
   .button-main:hover{
