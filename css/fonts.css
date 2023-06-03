@@ -1,4 +1,4 @@
-
+/*CSS for typography*/
 
 .bold {
     font-weight: bold;
@@ -7,17 +7,20 @@
 .text-btn {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
+    color: #363232
 }
 
 .heading-font {
     font-family:Arial, Helvetica, sans-serif;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
+    color: #363232
 }
 
 .subtitle-font {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2.5rem;
     font-weight:lighter;
+    color: #363232
 }
 
 
@@ -31,12 +34,13 @@
     text-align: center;
     font-weight: bold;
    
-    }
+}
     
-    a:link {
-      text-decoration: none
-    }
+a:link {
+    text-decoration: none
+}
     
+
 h4 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.1vw;
@@ -44,30 +48,97 @@ h4 {
     align-items: center;
     color: black;
     text-align: center;
+}
+
+.item-subtitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+
+
+.body-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height:1.5;
+}
+
+
+.fine-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7rem;
+    color: grey;
+    line-height:1.15;
     }
 
+
+.product-list-price {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1vw;
+    justify-content: center;
+    align-items: center;
+    color: #363232;
+    text-align: center ;
+    font-weight: lighter;
+    }
+
+
+.option-description{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    color: #363232;
+}
+
+/* Tablet size layout*/
+@media (max-width: 1100px) {
+    
+    .heading-font {
+        font-size: 2rem;
+    }
+
+    .text-btn {
+        font-size: 0.8rem;
+    }
+    
+    .subtitle-font {
+        font-size: 2rem;
+    }
+    
     .item-subtitle{
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 1.5rem;
+        font-size: 0.8rem;
     }
-
+    
+    
     .body-text{
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 1rem;
+        font-size: 0.8rem;
+        line-height:1.5;
     }
-
+    
+    
     .fine-text{
         font-family: Arial, Helvetica, sans-serif;
         font-size: 0.7rem;
         color: grey;
-
+        line-height:1.15;
+        }
+    
+    
+    .option-description{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.8rem;
+        color: #363232;
     }
-.product-list-price {
-     font-family: Arial, Helvetica, sans-serif;
-            font-size: 1vw;
-            justify-content: center;
-            align-items: center;
-            color: #363232;
-            text-align: center ;
-            font-weight: lighter;
-            }
+
+}
+
+/*mobile sized layout*/
+@media (max-width: 750px) {
+
+    .heading-font {
+        font-size: 1.5rem;
+    }
+
+    .subtitle-font {
+        font-size: 1.5rem;
+    }
+}
