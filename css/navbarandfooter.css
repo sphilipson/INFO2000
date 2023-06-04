@@ -26,7 +26,11 @@ nav {
 
 .navbar-container > :nth-last-child(2){ /*search and cart*/
   margin-left: auto;
-  padding-right: 1rem;
+}
+
+
+.navbar-container > :nth-last-child(1){ /*search and cart*/
+  padding-right: 1.5rem;
 }
 
 
