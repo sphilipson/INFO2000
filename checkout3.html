@@ -10,22 +10,24 @@
     <link rel="stylesheet" type="text/css" href="css/navbarandfooter.css">
     <link rel="stylesheet" type="text/css" href="css/checkout3.css">
     <script src="checkout.js"></script>
-    <title>loungelovers  checkout</title>
+    <title>loungelovers checkout payment details</title>
 </head>
 
 <body>
+    <!--nav bar-->
     <nav class="navbar">
         <div class="navbar-container">
             <div class="hamburger-menu">
                 <button class="btn">
                     <img class= "icon-btn" src="sammy-assets/fixed-hamburger-menu.png" alt="menu">
                 </button>
-            
             </div>
             <div class="logo">
+                <a href="index.html">
                 <button class="btn">
                     <img class= "icon-btn" src="Assets/logostraightcropped.png" alt="Lounge Lovers">
                 </button>
+                </a>
             </div>
             <div class = "nav-menu">
             </div>
@@ -43,7 +45,7 @@
         </div>
     </nav>
 
-
+<!--input container header-->
         <div class="checkout-input-container1">
             
             <h1 class="checkout-header-text details-text">PAYMENT DETAILS</h1>
@@ -56,8 +58,8 @@
                 </div>
 
                 
-                    
-        <div class="creditradiocontainer">
+    <!--card radio button and input bars -->
+        <div class="credit-radio-container">
                     <label class="checkout3-text">
                     <input type="radio" id="credit" name="options">  
                    CREDIT/DEBIT CARD</label>
@@ -85,34 +87,35 @@
                 </div>
         </div>
 
+<!--paypal and afterpay radio buttons -->
 
             <div class="checkout2-bigbox-text">
-                <label class="checkout3-paypal">
-                    <input type="radio" id="paypal" name="options">  
+                <label class="checkout3-image">
+                    <input type="radio" id="paypal" name="options"> 
+                    <img src="Assets/2560px-PayPal_logo.svg.png"> 
                 </label>
-                <img src="Assets/2560px-PayPal_logo.svg.png">
+                
             </div>
 
                 <div class="checkout2-bigbox-text">
-                    <label class="checkout3-afterpay">
+                    <label class="checkout3-image">
                         <input type="radio" id="afterpay" name="options">  
                     </label>
                     <img src="Assets/Afterpaylogo.png">
                     </div>
 
-                        <div class="final-three-container">
+            
+     <!--google pay and apple pay radio buttons-->
+            <div class="final-three-container">
                             <div class="checkout2-bigbox-text">
-                                <label class="checkout2-text">
+                                <label class="checkout3-image">
                                     <input type="radio" id="applepay" name="options">  
                                     <img src="Assets/apple-pay-og.jpeg">
                                 </label>
-                                
-                                </div>
+                            </div>
 
-            
-        
                                 <div class="checkout2-bigbox-text">
-                                <label class="checkout2-text">
+                                <label class="checkout3-image">
                                     <input type="radio" id="googlepay" name="options">  
                                     <img src="Assets/Google_Pay_Logo.svg.png">    
                                 </label>
@@ -121,30 +124,14 @@
                                 </div>
                             </div>
                         </div>
-
-
-
-
-
-                        
-                </div>
-
+                    </div>
             </form>
+
+        <!--checkout button-->
             <div class="checkout2-submit-btn">
                 <a href="checkout4.html"> <button class="checkout-button">CHECKOUT</button></a>
             </div>
         </div>
-
-
-
-</body>
-
-
-
-
-
-
-
 
 
     <div class="footer">
@@ -178,9 +165,7 @@
             <div class="footer-banner-container">
             <img src="sammy-assets/footer-banner.png">
             </div>
-
-            
         </div>
         </div>
-
-
+    </body>
+</html>

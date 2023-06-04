@@ -1,5 +1,6 @@
     /*banner*/
-  .product-list-banner {
+  .product-list-banner { /* flex is used to keep the banner responsive, padding added to best
+    display the banner*/
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -9,21 +10,21 @@
     padding-bottom: 15px;
     }
 
-  .product-list-banner img { 
+  .product-list-banner img { /*max-width stops the banner from going outside its container*/
     max-width: 100%;
     height: auto;
     }
 
-/*product list header*/
+/*product list header (text under banner and sort/filter button)*/
 
 .product-list-header{
-  display: flexbox;
   padding-left: 10%;
   padding-right: 10%;
 
 }
 
-.product-list-header-text{
+.product-list-header-text{ /*specifically the text in header
+  vw keeps the header responsive, all items aligned to the left*/
   font-size: 2vw;
   justify-content: left ;
   align-items: left;
@@ -42,7 +43,8 @@
 }
 
 
-/*product list begins*/
+/*product list begins, flex-wrap makes any items move to the next row when the viewport size is changed/too small
+keeps the product list responsive*/
   .product-list {
     display: flex;
     flex-wrap: wrap;
@@ -51,7 +53,8 @@
     padding-right: 10%;
   }
 
-  .product-list-products {
+  .product-list-products { /*25% makes the product take up 
+    25% of the space in the container, subtracting 2% from the 100%, % keeps the products responsive*/
     width: calc(25% - 2%);
     margin-bottom: 2%;
   }
@@ -67,23 +70,18 @@ width: 100%;
 padding: 10px;
 padding-bottom: 10px;
 box-sizing: border-box;
-border-style: solid;
-border-color: black;
-border-width: 0.5px;
+
 }
 
-.product-list-image img {
+.product-list-image img { /*object-fit: contain scales the content 
+  to fit proportionally within the container.*/
   max-width: 100%;
-  max-height: 100%;
+  max-height: auto;
   object-fit: contain;
 }
 
-.product-list-image:hover{
-  color: #363232;
-  background-color: #e8e3e3;
-  
-}
-
+/*@media makes pages responsive, when the screen size is below 920px,
+there will be three products per row, and wehn below 600px there will be 2 per row (for mobile)*/
 @media (max-width: 920px){
   .product-list-products{
     width: calc(33.33% - 2%);

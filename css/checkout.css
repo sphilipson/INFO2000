@@ -1,12 +1,14 @@
-.checkout-header{
+.checkout-header{ 
   display: flexbox;
   padding-left: 10%;
   padding-right: 10%;
-  padding-top: 70px;
+  padding-top: 30px;
 
 }
-
-
+a { /*for the back button, decoration*/
+  text-decoration: none; 
+  color: inherit;
+}
 
 
 /*cart container*/
@@ -37,7 +39,7 @@ border-color: #b8b2b2;;
   
 
 }
-
+/*manhattan black drawers image*/
 .manhattan-img{
   max-width: 100%;
   max-height: 100%;
@@ -46,6 +48,7 @@ border-color: #b8b2b2;;
   
 }
 
+/*hugo couch image*/
 .hugo-img{
   max-width: 100%;
   max-height: 100%;
@@ -55,35 +58,28 @@ border-color: #b8b2b2;;
 }
 
 
-.cart-text{
+.cart-text{ /*all text within main container*/
   display: flex;
  flex: 1;
  
- 
- 
 }
 
-.cart-ul-1{
+.cart-ul-1{ /*text column 1*/
   flex: 4.5;
-  
 
 }
 
-.cart-ul-2{
+.cart-ul-2{ /*text column 2*/
   flex: 1.5;
   
 }
 
-.cart-ul-3{
+.cart-ul-3{ /*text column 3*/
   flex: 1.5;
  
 }
 
-
-
-
-
-.manhattan-title{
+.manhattan-title{ 
   padding-top: 5vw;
 }
 
@@ -93,17 +89,13 @@ text-decoration: underline;
 font-weight: lighter;
 }
           
-
-
-
-
 .checkout-total-container{
   padding-left: 10vw;
   padding-right: 10vw;
   text-align: right;
 }
       
-
+/*button container*/
 .button-container-checkout{
   padding-top: 1vw;
  padding-bottom: 10px;

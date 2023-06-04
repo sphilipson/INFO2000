@@ -5,6 +5,7 @@
     border: none;
     background-color: white;
     color: #363232;
+    text-decoration: none;
 }
 
 .icon-btn{ /*buttons that are images/icons*/
@@ -74,6 +75,12 @@
   display: flex;
   align-items: center;
 }
+
+.return-btn{
+padding-top: 100px;
+text-decoration: none;
+}
+
 .checkout-button{
   box-sizing: border-box;
   text-decoration: none;

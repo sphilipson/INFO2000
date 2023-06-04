@@ -1,4 +1,6 @@
-.creditradiocontainer{
+
+/*credit card radio buttons */
+.credit-radio-container{
     border: solid;
     border-width: 1px;
     border-radius: 7px;
@@ -6,12 +8,16 @@
     max-width: 100%;
 }
 
-.creditradiocontainer div{
+/*specifically the divs within credit radio container*/
+.credit-radio-container div{
     padding-top: 7px;
     color: #363232;
 }
 
-.checkout2-bigbox-text{
+/* afterpay and paypal radio buttons styling*/
+.checkout2-bigbox-text{ 
+    display: flex;
+    align-items: center;
     border: solid;
     border-width: 1px;
     border-radius: 7px;
@@ -19,24 +25,32 @@
     margin-top: 2%;
     padding: 0.5%;
     color: #363232;
+    cursor: pointer;
 
 }
 
-.checkout3-text{
+.checkout3-text{ /*credit/debit card text*/
     padding-top: 0;
     padding-bottom: 0;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: #363232;
+    cursor: pointer;
 
 }
 
-.checkout-input-container1{
+.checkout-3-image{ /*label on the radio for all the radios with 
+    images, aligns horizontally*/
+display: flex;
+align-items: center;
+margin-right: 10px;
+}
+
+.checkout-input-container1{ /*the page*/
     max-width: 100%;
     padding: 10%;
     padding-top: 0;
     padding-bottom: 0;
-    
    
 }
 
@@ -45,12 +59,12 @@ max-width: 10%;
 height: auto;
 }
 
-.selectpayment{
+.selectpayment{ /*select payment method text*/
     padding-bottom: 5px;
     color: #363232;
     
 }
-
+/*expiry and cvv input bars*/
 .exp-cvv-container{
     display: flex;
     flex: 1;
@@ -58,15 +72,16 @@ height: auto;
 }
 
 .exp-cvv-container div{
-    
     margin-right: 5px;
     max-width: 100%;
 }
 
-.cvv input{
+.cvv input{ /*making cvv smaller than expiry*/
     width: 50px;
 }
-.final-three-container{
+
+.final-three-container{ /* flex:1 distributes space evently 
+    between the expiry and cvv input bars*/
     display: flex;
     flex: 1;
     max-width: 100%;

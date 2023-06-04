@@ -1,4 +1,4 @@
-.checkout-input-container1{
+.checkout-input-container1{ /*main container*/
     max-width: 100%;
     padding: 10%;
     padding-top: 0;
@@ -7,7 +7,8 @@
 
 
 
-input {
+input { /*css for the input bars, will take up 100% of the 
+    width minus 10px, border radius rounds corners*/
     width: calc(100% - 10px);
     padding: 1vw;
     padding-top: 0;
@@ -17,9 +18,11 @@ input {
     border: 1px solid;
     border-radius: 7px;
     border-color: #363232;
-
    
 }
+/* city, state and postcode, container and individual divs, 
+margin-right=0 for last-child, means there will be a margin between the boxes, 
+but not on the right of the last input bar*/
 
 .final-three-container{
     display: flex;
@@ -35,7 +38,8 @@ input {
     margin-right:0
 }
 
-            
+/*@media changes the padding of various items, based on the screen size and whether it is below or above 600px*/
+
 @media (max-width: 600px) {
     .checkout2-container {
         padding: 10px

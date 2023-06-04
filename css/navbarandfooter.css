@@ -95,7 +95,7 @@ nav {
   padding-left: 15px;
   padding-right: 10px;
 
-
+}
 
   /*footer begins*/
   .footer-container {
@@ -105,8 +105,9 @@ nav {
     background-color:#e8e3e3; 
     padding-top: 0.5%;
     padding-bottom: 1%;
-    padding-left: 2%;
-    padding-right: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-right: 0;
   }
 
   .footer-header{
@@ -162,7 +163,7 @@ nav {
    height: auto;
 
   }
-}
+
 
 /*mobile display*/
 @media (max-width: 700px) {
