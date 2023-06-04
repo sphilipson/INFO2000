@@ -74,12 +74,42 @@
   display: flex;
   align-items: center;
 }
+.checkout-button{
+  box-sizing: border-box;
+  text-decoration: none;
+  font-size: 1.25vw;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  background-color: #434242;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  color: white;
+  padding: 1.25%;
+  padding-left: 3.75%;
+  padding-right: 3.75%;
+  cursor: pointer;
+}
 
 .button-secondary:hover{
   border-color: black;
   color: #434242;
   background-color: #e8e3e3;
 }
+
+
+
+.checkout2-submit-btn{
+  padding-top: 1vw;
+ padding-bottom: 10px;
+ height: 17%;
+ position: relative;
+ text-align: right;
+ margin-right: 10px;
+ padding-top: 20px;
+
+} 
 
 @media (max-width: 700px) {
   .prev-page-btn{

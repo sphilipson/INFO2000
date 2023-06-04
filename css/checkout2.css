@@ -1,21 +1,52 @@
 .checkout-input-container1{
     max-width: 100%;
     padding: 10%;
-    background-color: bisque;
-}
-
-.checkout2-container{
-    background-color: aquamarine;
+    padding-top: 0;
+   
 }
 
 
-.email{
-display: block;
-font-weight: bold;
-}
 
-.input {
-    width: 100%;
+input {
+    width: calc(100% - 10px);
+    padding: 1vw;
+    padding-top: 0;
+    padding-right: 0;
+    margin-right: 0;
+    box-sizing: border-box;
     border: 1px solid;
-    border-radius: 10px;
+    border-radius: 7px;
+    border-color: #363232;
+
+   
 }
+
+.final-three-container{
+    display: flex;
+    flex: 1;
+}
+
+.final-three-container div{
+    flex: 1;
+    margin-right: 30px;
+}
+
+.final-three-container div:last-child {
+    margin-right:0
+}
+
+            
+@media (max-width: 600px) {
+    .checkout2-container {
+        padding: 10px
+    }
+
+    input{
+        padding: 8px
+    }
+
+    .checkout-button{
+        padding: 8px 16px;
+    }
+}
+
