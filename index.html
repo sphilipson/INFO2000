@@ -16,7 +16,6 @@
     
 </head>
 <body>
-    
     <!--nav bar-->
     <nav class="navbar">
         <div class="navbar-container">
@@ -24,7 +23,7 @@
                 <button class="btn">
                     <img class= "icon-btn" src="sammy-assets/fixed-hamburger-menu.png" alt="menu">
                 </button>
-            
+        
             </div>
             <div class="logo">
                 <button class="btn">
@@ -60,38 +59,106 @@
             </div>
             <div class="cart-icon" data-value="0">
                 <button class="btn cart-button">
-                    <img class="icon-btn" src="sammy-assets/fixed-cart-icon.png" alt="cart">
+                    <a href="checkout.html"> 
+                        <img class="icon-btn" src="sammy-assets/fixed-cart-icon.png" alt="cart">
+                    </a>
                 </button>
             </div>
         </div>
     </nav>
 
-    <!-- hompage banner-->
-    <div class="homepage-banner">
-        <img src="Assets/_MG_4628_copy_-_lr.jpeg">
-        <div class="homepage-banner-text">Spring Collection</div>
-        <a href="home.html" class="btn">SHOP NOW</a>
-    </div>
-    <p>hello my good friend peng you </p>
-    <button>click here!</button>
+    <!--homepage banner-->
     <div>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus beatae aperiam qui tempore nihil nemo velit in autem officiis eum dolore rem temporibus pariatur, harum fuga minus placeat suscipit obcaecati.
+        <div class="homepage-banner">
+            <img class="homepage-banner"
+            srcset="Assets/homepage-banner-proper.png 800w"
+            sizes="(max-width: 600px) 480px, 800px"
+            src="sammy-assets/newreleases-banner.png"
+            alt="productlistbanner"> 
     </div>
 
-    <div class="footer">
-             <ul title="CONTACT US">
-                <li>Contact Us</li>
-                <li>Find a Store</li>
-                <li>Open Hours</li>
-                <li>Order Fabric Samples</li>
-            </ul>
-            <ul title="ABOUT US">
-                <li>LoungeLovers Blog</li>
-                <li>Inspiration</li>
-            </ul>
-    
-            <img src="Assets/logo.png">
+    <!--sections-->
+
+    <div class="align-left">
+        <div class="homepage-image">
+            <a href="product-list.html">
+                <img class="section-image" src="sammy-assets/homepage-click-livingroom.png" alt="lounge room">
+            </a>
         </div>
+        <div class ="bold title-font">
+            <p>LOUNGE ROOM</p>
+        </div>
+        <div>
+            <a href="product-list.html">
+                <button class="btn button-secondary">SHOP NOW</button>
+            </a>
+        </div>
+    </div>
+
+    <div class="align-right">
+        <div class="homepage-image">
+            <a href="product-list.html">
+                <img class="section-image" src="Assets/homepage-bedroom.jpeg" alt="bed room">
+            </a>
+        </div>
+    </div>
+    <div class="bold title-font align-right">
+        <p>BED ROOM</p>
+    </div>
+    <div class="align-right padding-up">
+        <a href="product-list.html">
+            <button class="btn button-secondary">SHOP NOW</button>
+        </a>
+    </div>
+
+    <div class="align-left">
+        <div class="homepage-image">
+            <a href="product-list.html">
+                <img class="section-image" src="sammy-assets/homepage-click-diningroom.png" alt="dining room">
+            </a>
+        </div>
+        <div class ="bold title-font">
+            <p>DINING ROOM</p>
+        </div>
+        <div>
+            <a href="product-list.html">
+                <button class="btn button-secondary">SHOP NOW</button>
+            </a>
+        </div>
+    </div>
+
+
+    <!-- footer -->    
+    <div class="footer">
+        <div class="footer-container">
+            <ul>
+                <li>Warranty</li>
+                <li>Product Care</li>
+                <li>Delivery</li>
+                <li>Product Manuals</li>
+                <li>FAQs</li>
+                <li>Furniture Protection</li>
+                <li>Interest Free Options</li>
+                <li>Returns and Refunds</li>
+                <li>Terms and Conditions</li>
+                <li>Privacy Policy</li>
+                <li>About Zip</li>
+            </ul>
+                    
+            <ul title="CONTACT US">
+                <h2 class="footer-header">CONTACT US</h2>
+                    <li>Find a Store</li>
+                    <li>Open Hours</li>
+                    <li>Order Fabric Samples</li>
+                        
+                    <h2 class="footer-header2">ABOUT US</h2>
+                    <li>LoungeLovers Blog</li>
+                    <li>Inspiration</li>
+            </ul>
+
+        <div class="footer-banner-container">
+            <img src="sammy-assets/footer-banner.png">
+        </div>    
     </div>
 
 </body>
