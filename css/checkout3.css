@@ -1,0 +1,98 @@
+.creditradiocontainer{
+    border: solid;
+    border-width: 1px;
+    border-radius: 7px;
+    padding: 2%;
+    max-width: 100%;
+}
+
+.creditradiocontainer div{
+    padding-top: 7px;
+    color: #363232;
+}
+
+.checkout2-bigbox-text{
+    border: solid;
+    border-width: 1px;
+    border-radius: 7px;
+    border-color:#363232;;
+    margin-top: 2%;
+    padding: 0.5%;
+    color: #363232;
+
+}
+
+.checkout3-text{
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #363232;
+
+}
+
+.checkout-input-container1{
+    max-width: 100%;
+    padding: 10%;
+    padding-top: 0;
+    padding-bottom: 0;
+    
+   
+}
+
+.checkout-input-container1 img{
+max-width: 10%;
+height: auto;
+}
+
+.selectpayment{
+    padding-bottom: 5px;
+    color: #363232;
+    
+}
+
+.exp-cvv-container{
+    display: flex;
+    flex: 1;
+    
+}
+
+.exp-cvv-container div{
+    
+    margin-right: 5px;
+    max-width: 100%;
+}
+
+.cvv input{
+    width: 50px;
+}
+.final-three-container{
+    display: flex;
+    flex: 1;
+    max-width: 100%;
+}
+
+.final-three-container div{
+    flex: 1;
+    margin-right: 15px;
+}
+
+.final-three-container div:last-child {
+    margin-right:0
+}
+
+            
+@media (max-width: 600px) {
+    .checkout2-container {
+        padding: 10px
+    }
+
+    input{
+        padding: 8px
+    }
+
+    .checkout-button{
+        padding: 8px 16px;
+    }
+}
+

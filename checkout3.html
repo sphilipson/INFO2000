@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="css/buttons.css">
     <link rel="stylesheet" type="text/css" href="css/fonts.css">
     <link rel="stylesheet" type="text/css" href="css/navbarandfooter.css">
-    <link rel="stylesheet" type="text/css" href="css/checkout2.css">
+    <link rel="stylesheet" type="text/css" href="css/checkout3.css">
     <script src="checkout.js"></script>
     <title>loungelovers  checkout</title>
 </head>
@@ -47,55 +47,92 @@
         <div class="checkout-input-container1">
             
             <h1 class="checkout-header-text details-text">PAYMENT DETAILS</h1>
+            
+            
             <form class="checkout2-container" id="checkout2-form">
                  
-                <div class="email">
+                <div class="selectpayment">
                     <h5 class="checkout2-text">SELECT PAYMENT METHOD</h5>
                 </div>
 
-                <div class="creditradiocontainer">
+                
+                    
+        <div class="creditradiocontainer">
+                    <label class="checkout3-text">
                     <input type="radio" id="credit" name="options">  
-                <div class="first-name">
-                    <h5 class="checkout2-text">CREDIT/DEBIT CARD</h5>
-                </div>
-
-                <div class="last-name">
+                   CREDIT/DEBIT CARD</label>
+                  
+                <div class="name-on-card">
                     <h5 class="checkout2-text">NAME ON CARD</h5>
-                    <input type="text" id="last-name">
+                    <input type="text" id="name-on-card">
                 </div>
 
-                <div class="phone">
+                <div class="cnumber">
                     <h5 class="checkout2-text">CARD NUMBER</h5>
-                    <input type="text" id="phone">
+                    <input type="text" id="cnumber">
                 </div>
 
+                <div class="exp-cvv-container">
+                    <div class="exp-date">
+                        <h5 class="checkout2-text">EXP. DATE</h5>
+                        <input type="text" id="exp-date">
+                    </div>
 
-              <div class="final-three-container">
-                <div class="city">
-                    <h5 class="checkout2-text">EXP. DATE</h5>
-                    <input type="text" id="city">
+                    <div class="cvv">
+                        <h5 class="checkout2-text">CVV</h5>
+                        <input type="text" id="cvv">
+                    </div>
                 </div>
-
-                <div class="state">
-                    <h5 class="checkout2-text">CVV</h5>
-                    <input type="text" id="state">
-                </div>
-                </div>
-                </div>
-             <div class="checkout-radio-container">
-                <input type="radio" id="paypal" name="radios">
-                </div>
+        </div>
 
 
+            <div class="checkout2-bigbox-text">
+                <label class="checkout3-paypal">
+                    <input type="radio" id="paypal" name="options">  
+                </label>
+                <img src="Assets/2560px-PayPal_logo.svg.png">
+            </div>
 
+                <div class="checkout2-bigbox-text">
+                    <label class="checkout3-afterpay">
+                        <input type="radio" id="afterpay" name="options">  
+                    </label>
+                    <img src="Assets/Afterpaylogo.png">
+                    </div>
 
+                        <div class="final-three-container">
+                            <div class="checkout2-bigbox-text">
+                                <label class="checkout2-text">
+                                    <input type="radio" id="applepay" name="options">  
+                                    <img src="Assets/apple-pay-og.jpeg">
+                                </label>
+                                
+                                </div>
 
-                <div class="checkout2-submit-btn">
-                    <a href="checkout2.html"> <button value="submit" class="checkout-button"> CHECKOUT </button> </a>
             
+        
+                                <div class="checkout2-bigbox-text">
+                                <label class="checkout2-text">
+                                    <input type="radio" id="googlepay" name="options">  
+                                    <img src="Assets/Google_Pay_Logo.svg.png">    
+                                </label>
+                                
+                            </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+                        
                 </div>
 
             </form>
+            <div class="checkout2-submit-btn">
+                <a href="checkout4.html"> <button class="checkout-button">CHECKOUT</button></a>
+            </div>
         </div>
 
 

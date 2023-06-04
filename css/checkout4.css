@@ -1,0 +1,14 @@
+.checkout-banner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 41px;
+    padding-bottom: 5px;
+    }
+
+  .checkout-banner img { 
+    max-width: 100%;
+    height: auto;
+    }
