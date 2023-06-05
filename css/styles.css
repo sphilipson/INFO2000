@@ -45,6 +45,7 @@
   padding-bottom: 3rem;
 }
 
+/*makes responsive*/
 @media (max-width: 900px) {
 
   .align-left{
